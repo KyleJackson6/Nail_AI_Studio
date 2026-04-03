@@ -1,0 +1,41 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model BusinessProfile {
+  id           Int      @id @default(1)
+  businessName String?
+  ownerName    String?
+  tones        String?
+  updatedAt    DateTime @updatedAt
+
+  colors  NailColor[]
+  shapes  NailShape[]
+  lengths NailLength[]
+}
+
+model NailColor {
+  id        Int             @id @default(autoincrement())
+  name      String
+  hex       String?
+  profileId Int
+  profile   BusinessProfile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+}
+
+model NailShape {
+  id        Int             @id @default(autoincrement())
+  name      String
+  profileId Int
+  profile   BusinessProfile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+}
+
+model NailLength {
+  id        Int             @id @default(autoincrement())
+  name      String
+  profileId Int
+  profile   BusinessProfile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+}
