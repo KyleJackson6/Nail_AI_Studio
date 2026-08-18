@@ -42,3 +42,36 @@ Ensure you have Node.js installed on your machine:
    ```bash
    git clone [https://github.com/KyleJackson6/Nail_AI_Studio.git](https://github.com/KyleJackson6/Nail_AI_Studio.git)
    cd Nail_AI_Studio
+Install dependencies:
+
+Bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+Run the local development server:
+
+Bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+View in browser:
+
+Open http://localhost:3000 to see the application.
+
+Roadmap & Future Enhancements
+[ ] Integrate real-time hand and nail landmark detection via MediaPipe for live camera virtual try-on.
+
+[ ] Implement WebGL / Three.js 3D hand rendering for accurate lighting and reflection previews.
+
+[ ] Add a community gallery for users to publish and rate custom nail sets.
+
+Author
+Kyle Jackson
+
+GitHub: @KyleJackson6
+
+LinkedIn: Kyle Jackson
