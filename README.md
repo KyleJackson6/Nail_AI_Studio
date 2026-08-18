@@ -6,25 +6,25 @@
 
 ## Overview
 
-**Nail AI Studio** is a modern web application built to bridge digital beauty design and real-world nail artistry. Built with **Next.js**, **React**, and **TypeScript**, the platform allows users to explore dynamic color palettes, tweak textures and finishes, and generate custom styling concepts through an intuitive, responsive interface.
+Nail AI Studio is a modern web application built to bridge digital beauty design and real-world nail artistry. Built with Next.js, React, and TypeScript, the platform allows users to explore dynamic color palettes, tweak textures and finishes, and generate custom styling concepts through an intuitive, responsive interface.
 
 ---
 
 ## Features
 
-- **AI Style Generation:** Create custom nail art concepts and patterns from dynamic presets and prompt workflows.
-- **Real-Time Visualization:** Interactively preview colors, textures, and finishes (matte, gloss, chrome, accents).
-- **Responsive Studio UI:** High-performance, mobile-first design built with modern React paradigms.
-- **Design Export:** Save customized palettes and generate styling references ready for salon appointments.
+- AI Style Generation: Create custom nail art concepts and patterns from dynamic presets and prompt workflows.
+- Real-Time Visualization: Interactively preview colors, textures, and finishes (matte, gloss, chrome, accents).
+- Responsive Studio UI: High-performance, mobile-first design built with modern React paradigms.
+- Design Export: Save customized palettes and generate styling references ready for salon appointments.
 
 ---
 
 ## Tech Stack
 
-- **Framework:** Next.js 14+ (App Router)
-- **Frontend & Language:** React, TypeScript, Tailwind CSS
-- **Icons & UI Assets:** Lucide React
-- **Deployment:** Vercel
+- Framework: Next.js 14+ (App Router)
+- Frontend & Language: React, TypeScript, Tailwind CSS
+- Icons & UI Assets: Lucide React
+- Deployment: Vercel
 
 ---
 
@@ -38,40 +38,37 @@ Ensure you have Node.js installed on your machine:
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/KyleJackson6/Nail_AI_Studio.git](https://github.com/KyleJackson6/Nail_AI_Studio.git)
-   cd Nail_AI_Studio
-Install dependencies:
+1. Clone the repository:
+```bash
+git clone [https://github.com/KyleJackson6/Nail_AI_Studio.git](https://github.com/KyleJackson6/Nail_AI_Studio.git)
+cd Nail_AI_Studio
+```
 
-Bash
+2. Install dependencies:
+```bash
 npm install
-# or
-yarn install
-# or
-pnpm install
-Run the local development server:
+```
 
-Bash
+3. Run the local development server:
+```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-View in browser:
+```
 
+4. View in browser:  
 Open http://localhost:3000 to see the application.
 
-Roadmap & Future Enhancements
-[ ] Integrate real-time hand and nail landmark detection via MediaPipe for live camera virtual try-on.
+---
 
-[ ] Implement WebGL / Three.js 3D hand rendering for accurate lighting and reflection previews.
+## Roadmap & Future Enhancements
 
-[ ] Add a community gallery for users to publish and rate custom nail sets.
+- Real-time hand and nail landmark detection via MediaPipe for live camera virtual try-on.
+- WebGL / Three.js 3D hand rendering for accurate lighting and reflection previews.
+- Community gallery for users to publish and rate custom nail sets.
 
-Author
-Kyle Jackson
+---
 
-GitHub: @KyleJackson6
+## Author
 
-LinkedIn: Kyle Jackson
+Kyle Jackson  
+- GitHub: https://github.com/KyleJackson6  
+- LinkedIn: https://www.linkedin.com/in/kyle-jackson-1006a52b4
